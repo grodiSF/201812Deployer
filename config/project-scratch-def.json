@@ -1,6 +1,8 @@
 {
-    "orgName": "dirk.gronert Company",
+    "orgName": "My Company",
     "edition": "Developer",
+    "language":"en",
+    "country":"DE",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
