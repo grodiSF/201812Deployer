@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalFormSubTypeL3__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Form Sub Type L3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LegalFormSubTypeL2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GmbH_&amp;_Co._KG</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>AG_&amp;_Co._KG</fullName>
+                <default>false</default>
+                <label>AG &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>GmbH_&amp;_Co._OHG</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. OHG</label>
+            </value>
+            <value>
+                <fullName>GmbH_&amp;_Co._KGaA</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. KGaA</label>
+            </value>
+            <value>
+                <fullName>AG_&amp;_Co._KGaA</fullName>
+                <default>false</default>
+                <label>AG &amp; Co. KGaA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>limited_partnership</controllingFieldValue>
+            <valueName>GmbH_&amp;_Co._KG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>limited_partnership</controllingFieldValue>
+            <valueName>AG_&amp;_Co._KG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>limited_partnership</controllingFieldValue>
+            <valueName>GmbH_&amp;_Co._OHG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>publicly_traded_partnership</controllingFieldValue>
+            <valueName>GmbH_&amp;_Co._KGaA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>publicly_traded_partnership</controllingFieldValue>
+            <valueName>AG_&amp;_Co._KGaA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalFormSubType__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Form Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LegalForm__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>individual_entrepreneur</fullName>
+                <default>false</default>
+                <label>individual_entrepreneur</label>
+            </value>
+            <value>
+                <fullName>registered_merchant</fullName>
+                <default>false</default>
+                <label>registered_merchant</label>
+            </value>
+            <value>
+                <fullName>simple_partnership</fullName>
+                <default>false</default>
+                <label>simple_partnership</label>
+            </value>
+            <value>
+                <fullName>un-incorporated_association</fullName>
+                <default>false</default>
+                <label>un-incorporated_association</label>
+            </value>
+            <value>
+                <fullName>commercial_partnerships</fullName>
+                <default>false</default>
+                <label>commercial_partnerships</label>
+            </value>
+            <value>
+                <fullName>partnership_company</fullName>
+                <default>false</default>
+                <label>partnership_company</label>
+            </value>
+            <value>
+                <fullName>incorporated_association</fullName>
+                <default>false</default>
+                <label>incorporated_association</label>
+            </value>
+            <value>
+                <fullName>limited_by_share</fullName>
+                <default>false</default>
+                <label>limited_by_share</label>
+            </value>
+            <value>
+                <fullName>registered cooperative</fullName>
+                <default>false</default>
+                <label>registered cooperative</label>
+            </value>
+            <value>
+                <fullName>corporation under public law</fullName>
+                <default>false</default>
+                <label>corporation under public law</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>individuals</controllingFieldValue>
+            <valueName>individual_entrepreneur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>individuals</controllingFieldValue>
+            <valueName>registered_merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>partnerships</controllingFieldValue>
+            <valueName>simple_partnership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>partnerships</controllingFieldValue>
+            <valueName>un-incorporated_association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>partnerships</controllingFieldValue>
+            <valueName>commercial_partnerships</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>partnerships</controllingFieldValue>
+            <valueName>partnership_company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>corporations</controllingFieldValue>
+            <valueName>incorporated_association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>corporations</controllingFieldValue>
+            <valueName>limited_by_share</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>corporations</controllingFieldValue>
+            <valueName>registered cooperative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>corporations</controllingFieldValue>
+            <valueName>corporation under public law</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
