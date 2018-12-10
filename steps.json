@@ -6,9 +6,9 @@
             "button": "Create Scratch Org"
         },
         {
-            "title": "Step 2: Data Model",
+            "title": "Step 2: Prepare Account Data Model",
             "body": "Follow the instructions to create the data model yourself in your org. <br> Then you can finalize the model by pushing the metadata defined <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step1/force-app/main/default\" target=\"_blank\">here</a>.",
-            "button": "Finalize the Data Model"
+            "button": "Finalize Account Data Model"
         },
         {
             "title": "Step 3: Data Import",
