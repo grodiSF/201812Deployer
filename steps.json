@@ -2,7 +2,7 @@
     "steps":[
         {
             "title": "Step 1: Creating a Scratch Org",
-            "body": "We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.",
+            "body": "<p>We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.</p><h3>Scratch Org</h3><p>The scratch org is a source-driven and disposable deployment of Salesforce code and metadata. A scratch org is fully configurable, allowing developers to emulate different Salesforce editions with different features and preferences. You can share the scratch org configuration file with other team members, so you all have the same basic org in which to do your development.</p>",
             "button": "Create <b>MY OWN</b> Scratch Org"
         },
         {
@@ -17,38 +17,48 @@
         },
         {
             "title":"Step 4: Create Tabs and Application",
-            "body":"Nice, now we have the data model defined. And the Salesforce Platform is doing the rest .... of course API and UI generation. So in this Step we will generate new UI Access points (Tabs) and a seperate Application? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step3/default\" target=\"_blank\"> here </a>",
+            "body":"Nice, now we have the data model defined. And the Salesforce Platform is doing the rest .... of course API and UI generation. So in this Step we will generate new UI Access points (Tabs) and a separate Application? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step3/default\" target=\"_blank\"> here </a>",
             "button":"Let's Create That"
         },
         {
             "title":"Step 5: Integration",
-            "body":"We now need to integrate the provided WebServices! For that we will generate the Stubs in APEX out of the xsd. With that we are able to implement services that are available via code but also in all Point&Click places of the Platform.<br> Let's use the Lightning Process Builder to make life easier for our users. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step4/default\" target=\"_blank\">here</a>",
+            "body":"We now need to integrate the provided WebServices! For that we will generate the Stubs in APEX out of the wsdl. With that we are able to implement services that are available via code but also in all Point&Click places of the Platform.<br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step4/default\" target=\"_blank\">here</a>",
             "button":"Create Integration"
         },
         {
             "title":"Step 6: Process Automation - Request",
-            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br> As always the Metadata could be find <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
+            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br/> <b>BUT WAIT .....</b> we need also a creation mode .... Quick Actions are the answer!<br> As always the Metadata could be found <a href=\"https://github.com/grodiSF/201812Deployer/tree/step5/default\" target=\"_blank\">here</a>",
             "button":"Create Process "
         },
         {
-            "title":"Step 7: Process - Request",
+            "title":"Step 7: Process - Get the Results",
+            "body":"Honestly, it would be better, if the Service would enqueue an event (Platform Event) as soon as the request was answered. <br/><br/> But cosmetics ... so let's use another quick action to ask for the result ... but instead we want to have our own UI and logic behind! <br> Let's take a closer look ... <br> Did I menion, that the Metadata could be found <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
+            "button":"Deploy"
+        },        
+        
+        {
+            "title":"Step 8: Mobile",
             "body":"What if I told you that all the work you have done is available on the move? <br> Let's take a closer look ...",
-            "button":"Nothing to do!"
+            "button":"Nothing to do here ;-)!"
         },        
         {
-            "title":"Step 6: Process Automation - Request",
-            "body":"We will now use the report and dashboard editors to visualize the data. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
-            "button":"Create/Update report and dashboard"
-        },
-
-        {
-            "title":"Step 8: Integration",
-            "body":"Wouldn't it be great if the open positions were linked to the job repository maintained in the HR system? <br> And if the integration was done without a line of code? Let's go set up Salesforce Connect! <br> <br> Metadata <a href = \"https://github.com/mjacquet/jobrequisitions/tree/step6\" target=\"_blank\" > here </a>.",
-            "button":"Create integration"
+            "title":"Step 9: Report and Dashboard",
+            "body":"We will now use the report and dashboard editors to visualize the data.",
+            "button":"Do it yourself ... ;-)"
         },
         {
-            "title":"Step 9: Custom Dev",
-            "body":"And now, after all this declarative work, I feel that you are dying to do some code :) <br> We are going to create a lightning component and call a WebService in Apex. <br> Metadata <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step8\" target=\"_blank\"> here </a>",
+            "title":"Step 10: Customers and Partners",
+            "body":"What if we can now publish the process to external users ....?",
+            "button":"Enable the Community by yourself!"
+        },
+        {
+            "title":"Step 11: Style Style Style .... Custom UI Development",
+            "body":"And now, after all this declarative work, I feel that you are dying to do some code :) <br> We are going to create a lightning components to establish the pixel perfect user interface. <br> Ämmmm do you remember .... the GIT is <a href=\"https://github.com/grodiSF/201812Deployer/tree/step10/default\" target=\"_blank\">here</a>",
             "button":"Push Code"
+        },
+        {
+            "title":"Step 12: The Limit is the SKY ;-)!",
+            "body":"This is why we are BORN CLOUD and are freaking awesome",
+            "button":"DONE & THANK YOU!!"
         }
 ]}
