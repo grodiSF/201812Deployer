@@ -11,9 +11,9 @@
             "button": "Finalize Account Data Model"
         },
         {
-            "title": "Step 3: Data Import",
-            "body": "We created a data model for our app. <br> It's still better to test with a little more data! <br> Have a look at the data we will load, in JSON format <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step2/data\" target=\"_blank\"> here </a>.",
-            "button": "Load Data"
+            "title": "Step 3: Create Factoring Custom Objects, Relationships, Layout and Global Picklist Values",
+            "body": "Follow the instructions to create the data model yourself in your org. <br> Then you can finalize the model by pushing the metadata defined <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step1/force-app/main/default\" target=\"_blank\">here</a>.",
+            "button": "Finalize Account Data Model"
         },
         {
             "title":"Step 4: User Interface Customization",
