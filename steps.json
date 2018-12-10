@@ -2,7 +2,7 @@
     "steps":[
         {
             "title": "Step 1: Creating a Scratch Org",
-            "body": "<p>We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.</p><h3>Scratch Org</h3><p>The scratch org is a source-driven and disposable deployment of Salesforce code and metadata. A scratch org is fully configurable, allowing developers to emulate different Salesforce editions with different features and preferences. You can share the scratch org configuration file with other team members, so you all have the same basic org in which to do your development.</p>",
+            "body": "<p>We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.</p><h2>Scratch Org</h2><p>The scratch org is a source-driven and disposable deployment of Salesforce code and metadata. A scratch org is fully configurable, allowing developers to emulate different Salesforce editions with different features and preferences. You can share the scratch org configuration file with other team members, so you all have the same basic org in which to do your development.</p>",
             "button": "Create <b>MY OWN</b> Scratch Org"
         },
         {
