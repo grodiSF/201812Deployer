@@ -1,0 +1,35 @@
+/** 
+.THIS .slds-navigation-list-vertical .slds-is-active .slds-navigation-list-vertical__action, .THIS .slds-navigation-list-vertical .slds-is-active .slds-navigation-list--vertical__action, .THIS .slds-navigation-list--vertical .slds-is-active .slds-navigation-list-vertical__action, .THIS .slds-navigation-list--vertical .slds-is-active .slds-navigation-list--vertical__action {
+    background-color: #f0f0f0 !important;
+    border-color: rgb(212, 212, 212) rgb(212, 212, 212) rgb(212, 212, 212) rgb(212, 212, 212) !important;
+    text-decoration: none !important;
+}
+.THIS .slds-text-link_reset, .THIS .slds-text-link--reset {
+    color: rgba(255,255,255,0.75);
+}
+.THIS .slds-navigation-list-vertical__action:active, .THIS .slds-navigation-list--vertical__action:active {
+    background-color: #f0f0f0 !important;
+
+}
+
+.THIS .slds-navigation-list-vertical .slds-is-active .slds-navigation-list-vertical__action:focus, .THIS .slds-navigation-list-vertical .slds-is-active .slds-navigation-list--vertical__action:focus, .THIS .slds-navigation-list--vertical .slds-is-active .slds-navigation-list-vertical__action:focus, .THIS .slds-navigation-list--vertical .slds-is-active .slds-navigation-list--vertical__action:focus {
+    border-left-width: 0.5rem !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+**/
+
+.THIS .slds-is-active a.slds-navigation-list--vertical__action{
+    background-color: #fafafa;
+    border-color: rgb(212, 212, 212) rgb(212, 212, 212) rgb(212, 212, 212) rgb(212, 212, 212);
+    color: #00005b;
+}
+.THIS .slds-is-inactive a.slds-navigation-list--vertical__action{
+    background-color: transparent;
+    color: #fafafa;
+}
+
+.THIS .slds-text-link_reset, .THIS .slds-text-link_reset:active, .THIS .slds-text-link_reset:focus, .THIS .slds-text-link_reset:hover, .THIS .slds-text-link--reset, .THIS .slds-text-link--reset:active, .THIS .slds-text-link--reset:focus, .THIS .slds-text-link--reset:hover {
+    color: #00005b;
+    text-decoration: inherit;
+}

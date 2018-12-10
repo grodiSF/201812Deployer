@@ -1,0 +1,74 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Sample Custom Theme Layout">
+    <aura:attribute name="search" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="newHeader" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="showMenu" type="Boolean" default="true" required="false"/>
+
+    <!-- div class="slds-grid">
+        <div class="navigation slds-col slds-size_2-of-12" style="height:100vh;">
+            <div class="logowrapper">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/94/AXA_Logo.svg" alternativeText="Bob Wilson"/>
+                <i>Factoring<b>Tool</b></i>
+            </div>
+            <div class="profileMenuRegion">
+                    {!v.profileMenu}
+            </div>
+            <div class="slds-grid slds-grid_align-center">
+                <div class="slds-col slds-size_10-of-12 slds-border_bottom"/>
+            </div>
+            <div class="axa_navi">
+                <c:AXANavigation></c:AXANavigation>
+            </div>
+            <div class="slds-grid slds-grid_align-center">
+                <div class="slds-col slds-size_10-of-12 slds-border_bottom"/>
+            </div>
+            <div class="searchRegion">
+                {!v.search}
+            </div>  
+        </div>
+        <div class="slds-col slds-size_10-of-12" style="height:100vh;background-color:#fafafa;">
+          
+            <div class="newHeader">
+                {!v.newHeader}
+            </div>
+            <div class="mainContentArea">
+                {!v.body}
+            </div>
+        </div> 
+    </div -->
+    <div id="base-example" class="slds-grid" style="height: 100vh;">
+        <div class="{!'slds-split-view_container' + (v.showMenu ? ' slds-is-open' : ' slds-is-closed') + ' navigation'}" style="max-width: 20rem;">
+            <lightning:buttonIcon size="small" class="{!'slds-split-view__toggle-button ' + (v.showMenu ? ' slds-is-open' : ' slds-is-closed')}" iconName="utility:chevronleft" variant="bare" onclick="{! c.toggleNavigation }" alternativeText="Close" />
+            <article id="master_view_base-example" class="slds-split-view slds-grid slds-grid_vertical slds-grow slds-scrollable_none">
+                <div class="logowrapper">
+                    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/94/AXA_Logo.svg" alternativeText="Bob Wilson"/>
+                    <i>Factoring<b>Tool</b></i>
+                </div>
+                <div class="profileMenuRegion">
+                        {!v.profileMenu}
+                </div>
+                <div class="slds-grid slds-grid_align-center">
+                    <div class="slds-col slds-size_10-of-12 slds-border_bottom"/>
+                </div>
+                <div class="axa_navi">
+                    <c:AXANavigation></c:AXANavigation>
+                </div>
+                <div class="slds-grid slds-grid_align-center">
+                    <div class="slds-col slds-size_10-of-12 slds-border_bottom"/>
+                </div>
+                <div class="searchRegion">
+                    {!v.search}
+                </div>  
+            </article>
+        </div>
+        <div class="slds-grow slds-scrollable_y" style="padding-left: 50px;height:100vh;background-color:#fafafa;">
+            <div class="newHeader">
+                {!v.newHeader}
+            </div>
+            <div class="mainContentArea">
+                {!v.body}
+            </div>
+        </div>
+     </div>
+</aura:component>
