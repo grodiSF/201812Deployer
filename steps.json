@@ -13,7 +13,7 @@
         {
             "title": "Step 3: Create Factoring Custom Objects, Relationships, Layout and Global Picklist Values",
             "body": "Follow the instructions to create the data model yourself in your org. <br> Then you can finalize the model by pushing the metadata defined <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step1/force-app/main/default\" target=\"_blank\">here</a>.",
-            "button": "Finalize Account Data Model"
+            "button": "Creating Custom Objects"
         },
         {
             "title":"Step 4: User Interface Customization",
