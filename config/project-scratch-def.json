@@ -1,7 +1,7 @@
 {
     "orgName": "Platform Day Germany",
     "edition": "Developer",
-    "language": "en_US",
+    "language": "en",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
