@@ -3,38 +3,44 @@
         {
             "title": "Step 1: Creating a Scratch Org",
             "body": "We are going to create a new 'Scratch Org', which is an ephemeral dev environnement.<br>We will use it to creare our app, but also to experience how Salesforce DX allows collaboratoive development, Continuous Integration and Continous Deployment.",
-            "button": "Create Scratch Org"
+            "button": "Create <b>MY OWN</b> Scratch Org"
         },
         {
-            "title": "Step 2: Data Model",
-            "body": "Follow the instructions to create the data model yourself in your org. <br> Then you can finalize the model by pushing the metadata defined <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step1/force-app/main/default\" target=\"_blank\">here</a>.",
-            "button": "Finalize the Data Model"
+            "title": "Step 2: Prepare Account Data Model",
+            "body": "Follow the instructions to create the data model yourself in your org. <br> Then you can finalize the model by pushing the metadata defined <a href=\"https://github.com/grodiSF/201812Deployer/tree/step1/force-app/main/default\" target=\"_blank\">here</a>.",
+            "button": "Finalize Account Data Model"
         },
         {
-            "title": "Step 3: Data Import",
-            "body": "We created a data model for our app. <br> It's still better to test with a little more data! <br> Have a look at the data we will load, in JSON format <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step2/data\" target=\"_blank\"> here </a>.",
-            "button": "Load Data"
+            "title": "Step 3: Create Factoring Custom Objects, Relationships, Layout and Global Picklist Values",
+            "body": "In this step we will create Custom Objects for the Factoring Request and Response. The data model contains all needed fields and relationships. Furthermore also the necessary layouts are deployed. In addition we are preparing global picklists to have one single point of truth in the datamodel and the later program code.<br> Again, if you want to have a loook at the metadata please have a look <a href=\"https://github.com/grodiSF/201812Deployer/tree/step2/default\" target=\"_blank\">here</a>.",
+            "button": "Creating Magic Metadata"
         },
         {
-            "title":"Step 4: User Interface Customization",
-            "body":"You have now been able to test a first version of the application! Hooray! <br> What if we added a little collaboration? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step3\" target=\"_blank\"> here </a>",
-            "button":"Apply Changes"
+            "title":"Step 4: Create Tabs and Application",
+            "body":"Nice, now we have the data model defined. And the Salesforce Platform is doing the rest .... of course API and UI generation. So in this Step we will generate new UI Access points (Tabs) and a seperate Application? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step3/default\" target=\"_blank\"> here </a>",
+            "button":"Let's Create That"
         },
         {
-            "title":"Step 5: Automation",
-            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br> Metadata <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step4\" target=\"_blank\">here</a>",
-            "button":"Create process"
+            "title":"Step 5: Integration",
+            "body":"We now need to integrate the provided WebServices! For that we will generate the Stubs in APEX out of the xsd. With that we are able to implement services that are available via code but also in all Point&Click places of the Platform.<br> Let's use the Lightning Process Builder to make life easier for our users. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step4/default\" target=\"_blank\">here</a>",
+            "button":"Create Integration"
         },
         {
-            "title":"Step 6: Reports & Dashboards",
-            "body":"We will now use the report and dashboard editors to visualize the data. <br> Metadata <a href=\"https://github.com/mjacquet/jobrequisitions/tree/step5\" target=\"_blank\">here</a>",
-            "button":"Create/Update report and dashboard"
+            "title":"Step 6: Process Automation - Request",
+            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br> As always the Metadata could be find <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
+            "button":"Create Process "
         },
         {
-            "title":"Step 7: Mobility",
+            "title":"Step 7: Process - Request",
             "body":"What if I told you that all the work you have done is available on the move? <br> Let's take a closer look ...",
             "button":"Nothing to do!"
+        },        
+        {
+            "title":"Step 6: Process Automation - Request",
+            "body":"We will now use the report and dashboard editors to visualize the data. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
+            "button":"Create/Update report and dashboard"
         },
+
         {
             "title":"Step 8: Integration",
             "body":"Wouldn't it be great if the open positions were linked to the job repository maintained in the HR system? <br> And if the integration was done without a line of code? Let's go set up Salesforce Connect! <br> <br> Metadata <a href = \"https://github.com/mjacquet/jobrequisitions/tree/step6\" target=\"_blank\" > here </a>.",
