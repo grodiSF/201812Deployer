@@ -1,6 +1,7 @@
 {
-    "orgName": "dirk.gronert Company",
+    "orgName": "Platform Day Germany",
     "edition": "Developer",
+    "language": "en_US",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
