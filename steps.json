@@ -12,22 +12,22 @@
         },
         {
             "title": "Step 3: Create Factoring Custom Objects, Relationships, Layout and Global Picklist Values",
-            "body": "In this step we will create Custom Objects for the Factoring Request and Response. The data model contains all needed fields and relationships. Furthermore also the necessary layouts are deployed. In addition we are preparing global picklists to have one single point of truth in the datamodel and the later program code.<br> Again, if you want to have a loook at the metadata please have a look <a href=\"https://github.com/grodiSF/201812Deployer/tree/step2/default" target=\"_blank\">here</a>.",
+            "body": "In this step we will create Custom Objects for the Factoring Request and Response. The data model contains all needed fields and relationships. Furthermore also the necessary layouts are deployed. In addition we are preparing global picklists to have one single point of truth in the datamodel and the later program code.<br> Again, if you want to have a loook at the metadata please have a look <a href=\"https://github.com/grodiSF/201812Deployer/tree/step2/default\" target=\"_blank\">here</a>.",
             "button": "Creating Magic Metadata"
         },
         {
             "title":"Step 4: Create Tabs and Application",
-            "body":"Nice, now we have the data model defined. And the Salesforce Platform is doing the rest .... of course API and UI generation. So in this Step we will generate new UI Access points (Tabs) and a seperate Application? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step3/default" target=\"_blank\"> here </a>",
+            "body":"Nice, now we have the data model defined. And the Salesforce Platform is doing the rest .... of course API and UI generation. So in this Step we will generate new UI Access points (Tabs) and a seperate Application? <br> We could also create more sexy lists views and custom page layouts. <br> Let's get to work! <br> Final metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step3/default\" target=\"_blank\"> here </a>",
             "button":"Let's Create That"
         },
         {
             "title":"Step 5: Integration",
-            "body":"We now need to integrate the provided WebServices! For that we will generate the Stubs in APEX out of the xsd. With that we are able to implement services that are available via code but also in all Point&Click places of the Platform.<br> Let's use the Lightning Process Builder to make life easier for our users. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step4/default" target=\"_blank\">here</a>",
+            "body":"We now need to integrate the provided WebServices! For that we will generate the Stubs in APEX out of the xsd. With that we are able to implement services that are available via code but also in all Point&Click places of the Platform.<br> Let's use the Lightning Process Builder to make life easier for our users. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step4/default\" target=\"_blank\">here</a>",
             "button":"Create Integration"
         },
         {
             "title":"Step 6: Process Automation - Request",
-            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br> As always the Metadata could be find <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default" target=\"_blank\">here</a>",
+            "body":"We will now automate some actions! <br> Let's use the Lightning Process Builder to make life easier for our users. <br> As always the Metadata could be find <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
             "button":"Create Process "
         },
         {
@@ -37,7 +37,7 @@
         },        
         {
             "title":"Step 6: Process Automation - Request",
-            "body":"We will now use the report and dashboard editors to visualize the data. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default" target=\"_blank\">here</a>",
+            "body":"We will now use the report and dashboard editors to visualize the data. <br> Metadata <a href=\"https://github.com/grodiSF/201812Deployer/tree/step6/default\" target=\"_blank\">here</a>",
             "button":"Create/Update report and dashboard"
         },
 
